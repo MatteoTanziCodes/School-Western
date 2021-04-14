@@ -1,0 +1,12 @@
+https://globalhealth5050.org/?_covid-data=countries&_vartype=summary_pct&_country=%s%&_extype=csv
+
+^ This link will give us the Confirmed Cases for each country as well as the ratio of men to women in a CSV format
+*Please note the %s% represents the country chosen, to download the file, one must strip the link of both % and set the s to the country name
+
+https://api.covid19api.com/total/dayone/country/%25s/status/confirmed
+
+^This link gives us the covid data (totals) back to when it was first traced
+
+https://github.com/samayo/country-json/blob/master/src/country-by-population.json
+
+^This link gives us the population data for each country
