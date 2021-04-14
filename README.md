@@ -13,8 +13,8 @@
 
 # Year 3:
 - Computer Science 3305: Operating Systems
-- Computer Science 3340: 
-- Computer Science 3357: 
-- Computer Science 3388: 
+- Computer Science 3340: Analysis of Algorithms 1
+- Computer Science 3357: Computer Networks 1
+- Computer Science 3388: Computer Graphics 1
 
 # Year 4:
