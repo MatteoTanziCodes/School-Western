@@ -1,0 +1,7 @@
+SecoBd lPBe: #rows, #columBs, opVPoBal delay, opVPoBal map cell sPze. OVher lPBes: O-omBP swPVch, B-block oO houses, H-horPzoBVal swPVch, V-verVPcal swPVch, P-WesVerB Power CompaBy, C-CusVomer
+5 5
+B B P B B
+B O V O B
+B O B O O
+B O O O B
+B O B O C 

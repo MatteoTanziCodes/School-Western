@@ -1,0 +1,44 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             prog1, code, READONLY
+    2 00000000                 ENTRY
+    3 00000000         
+    4 00000000 E3A02001        MOV              r2, #1
+    5 00000004 E3A03001        MOV              r3, #1
+    6 00000008         
+    7 00000008 E3A01ED2        MOV              r1, #0xd20
+    8 0000000C         
+    9 0000000C EAFFFFFE 
+                       loop    B                loop
+   10 00000010                 END
+Command Line: --debug --xref --bi --apcs=interwork --depend=.\lab3.d -o.\lab3.o
+ -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include --predefine="__EVAL SETA 1"
+ --list=.\lab3.lst lab3.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+loop 0000000C
+
+Symbol: loop
+   Definitions
+      At line 9 in file lab3.s
+   Uses
+      At line 9 in file lab3.s
+Comment: loop used once
+prog1 00000000
+
+Symbol: prog1
+   Definitions
+      At line 1 in file lab3.s
+   Uses
+      None
+Comment: prog1 unused
+2 symbols
+333 symbols in table

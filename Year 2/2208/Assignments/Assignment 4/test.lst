@@ -1,0 +1,121 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             test, CODE, READWRITE
+    2 00000000                 ENTRY
+    3 00000000 E59F00A4        LDR              r0, =STRING1 ; load register 0 
+                                                            with the entire str
+                                                            ing
+    4 00000004 E28F1021        ADR              r1, STRING2
+    5 00000008 E5D04000        LDRB             r4, [r0]
+    6 0000000C         
+    7 0000000C E5814000        str              r4, [r1]
+    8 00000010         
+    9 00000010         
+   10 00000010         
+   11 00000010         
+   12 00000010         
+   13 00000010         
+   14 00000010         
+   15 00000010 61 6E 64 
+              20 74 68 
+              65 20 6D 
+              61 6E 20 
+              73 61 69 
+              64 20 74 
+              68 65 79 
+              20 6D 75 
+              73 74 20 
+              67 6F    STRING1 DCB              "and the man said they must go"
+ 
+                                                            ;String1
+   16 0000002D 00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+
+
+
+ARM Macro Assembler    Page 2 
+
+
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00 00 00 
+              00       STRING2 space            0x7F
+   17 000000AC         
+   18 000000AC                 END
+              00000000 
+Command Line: --debug --xref --bi --apcs=interwork --depend=.\test.d -o.\test.o
+ -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include --predefine="__EVAL SETA 1"
+ --list=.\test.lst test.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+STRING1 00000010
+
+Symbol: STRING1
+   Definitions
+      At line 15 in file test.s
+   Uses
+      At line 3 in file test.s
+Comment: STRING1 used once
+STRING2 0000002D
+
+Symbol: STRING2
+   Definitions
+      At line 16 in file test.s
+   Uses
+      At line 4 in file test.s
+Comment: STRING2 used once
+test 00000000
+
+Symbol: test
+   Definitions
+      At line 1 in file test.s
+   Uses
+      None
+Comment: test unused
+3 symbols
+336 symbols in table

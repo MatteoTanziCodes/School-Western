@@ -1,0 +1,22 @@
+Second line: #rows, #columns, optional delay, optional map cell size. Other lines: O-omni switch, B-block of houses, H-horizontal switch, V-vertical switch, P-Western Power Company, C-Customer
+20 20
+B B B B B B B B B B B B B B B B B B B B
+B B P O B B B O O O O B B B O O B B B B
+B B O B O B B B O B O B B O O B B O O B 
+B O V B O O B B O O B B O B B B B O B B
+B B O B B O O B B H B B O B B B B O B B
+B B O H O B O O O B B O O B B B O B B B
+B B V O O B B B B V B B O O B B B O B B
+B B O B B B B B B O B O B O B B B O B B
+B B O B B O O B B B O O B B O O O O B B
+B H O H O B O B B B B B O O V B V V B B
+B B O B O B O O O O B B B O O H O H O B
+B B O O B B B B B O O O O B B B B B O B
+B B O B B B B B O O B B B B V O B B V B
+B B O O O H H O B O O C O O B O O H O O
+B B H B B O O V B O B B B B O H H H H O
+B B O B B O O V B O B B B B O B B B B B
+B B O B B B O O B B O O O H O O O B B B
+B O B B B B O H O H H H O O B B O B B B
+B B O H O H H O O O B B O B B B B O B B
+B B B B B B B B B B B B B B B B B B B B

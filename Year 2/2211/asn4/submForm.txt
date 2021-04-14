@@ -1,0 +1,22 @@
+          Computer Science 2211A Assignment Submission Form
+
+This sheet must be submitted with your assignment. Failure to complete
+and submit this form will result in a mark of 0 for the assignment.
+
+Please fill in the following information:
+
+Assignment #: 4            
+Student last name: Tanzi     
+Student first name: Matteo   
+Student number: 251011979   
+Computer username: mtanzi      
+# of late coupon already used: 0
+# of late coupon for this assignment: 1
+
+
+By submitting this form, I declare that:
+
+ * I have read and understood the Departmental policies on Scholastic Offences.
+ * This assignment is exclusively my own work
+ * I have complied with the Departmental Rules of Ethical Conduct.
+ * I have taken all reasonable precautions to ensure that my work has not been copied by other students, including the protection of my files from access by other students.

@@ -1,0 +1,31 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             lab4, CODE, READWRITE
+    2 00000000                 ENTRY
+    3 00000000         
+    4 00000000 E2DA2008        SBCS             r2,r10,#8
+    5 00000004         
+    6 00000004                 END
+Command Line: --debug --xref --bi --apcs=interwork --depend=.\lab4.d -o.\lab4.o
+ -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include --predefine="__EVAL SETA 1"
+ --list=.\lab4.lst lab4.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+lab4 00000000
+
+Symbol: lab4
+   Definitions
+      At line 1 in file lab4.s
+   Uses
+      None
+Comment: lab4 unused
+1 symbol
+332 symbols in table

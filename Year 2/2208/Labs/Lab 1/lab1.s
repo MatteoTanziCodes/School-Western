@@ -1,0 +1,20 @@
+	AREA lab1, CODE, READWRITE
+	ENTRY
+
+	LDR r1,A
+	LDR r2,B
+	LDR r3,C
+	LDR r4,D
+	LDR r0,Z
+	
+	MUL r4,r3,r4
+	ADD r1,r1,r2
+	SUB r0,r1,r4
+
+A 	DCD 4
+B 	DCD 12
+C 	DCD -4
+D 	DCD -5
+Z 	DCD 0
+	
+	END

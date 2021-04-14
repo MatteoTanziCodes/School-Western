@@ -1,0 +1,22 @@
+
+Word john does not exist.
+
+Word to be found: highly
+	Filename: The_Souls_Of Black_Folk.txt
+		[43692]
+	Filename: Pride_and_Prejudice.txt
+		[1918, 5368, 14414, 19117, 20004, 22855, 24309, 25116, 25484, 26021, 28871, 34519, 34541, 36809, 39066, 39179, 40012, 41310, 66961, 68739, 74766, 77738, 83214, 83538, 85349, 98797, 113956]
+	Filename: Frankenstein.txt
+		[6543, 26184, 72421]
+	Filename: A_Modest_Proposal.txt
+		[1604]
+
+Word bye does not exist.
+
+Word to be found: short
+	Filename: The_Souls_Of Black_Folk.txt
+		[62324, 68700]
+	Filename: Pride_and_Prejudice.txt
+		[4643, 10606, 10884, 12479, 13404, 19735, 23988, 24610, 32462, 32793, 33393, 37239, 38852, 49228, 56042, 56681, 59996, 68133, 75488, 80128, 83898, 85977, 94570, 96800, 101303, 106500, 107707, 110468, 112001, 112256, 115314, 116597]
+	Filename: Frankenstein.txt
+		[11763, 16499, 17305, 19502, 21854, 29228, 29766, 34606, 36669, 46174, 53659, 56947, 58399, 59666, 65252, 66168, 70352]

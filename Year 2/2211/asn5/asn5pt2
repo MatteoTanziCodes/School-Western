@@ -1,0 +1,15 @@
+Script started on 2019-12-01 23:01:14-05:00
+]0;mtanzi@compute:~/cs2211/asn5[mtanzi@compute asn5]$ gzip asn5.tartar cvf asn5.tar asn5cd ..[K~/cs2211/asn5[10Plogout[2Pexitscriptfix asn5 > asn5.nice asn5[Kcat assignment5.txt | ./mymemory[C[C[C[C[C[C[C[C[C[C[C[C
+
+Integer	Occurrence
+7	 1
+8	 1
+6	 1
+5	 1
+3	 2
+1	 2
+2	 2
+]0;mtanzi@compute:~/cs2211/asn5[mtanzi@compute asn5]$ exit
+exit
+
+Script done on 2019-12-01 23:01:28-05:00

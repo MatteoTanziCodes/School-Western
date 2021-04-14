@@ -1,0 +1,14 @@
+Script started on 2019-11-13 01:43:45-05:00
+0;mtanzi@compute:~/cs2211/asn4[mtanzi@compute asn4]$ gcc -o bs_tree data.c bst.c bs_tree_main.c0gcc -0 bs_tree data.c bst.c bs_tree_main.cgcc -o bs_tree data.c bst.c bs_tree_main.cgcc -0 bs_tree data.c bst.c bs_tree_main.cgcc -0 bs_tree data.c bst.c bs_tree_main.cogcc -o euler euler.c
+0;mtanzi@compute:~/cs2211/asn4[mtanzi@compute asn4]$ ./euler
+Please enter a number: 0.0001
+The value is: 2.7182539682539680;mtanzi@compute:~/cs2211/asn4[mtanzi@compute asn4]$ ./euler
+Please enter a number: 0.0000001
+The value is: 2.7182818011463840;mtanzi@compute:~/cs2211/asn4[mtanzi@compute asn4]$ ./euler
+Please enter a number: 0.0000000001
+The value is: 2.7182818284467590;mtanzi@compute:~/cs2211/asn4[mtanzi@compute asn4]$ ./euler
+Please enter a number: 0.0000000000001
+The value is: 2.7182818284589940;mtanzi@compute:~/cs2211/asn4[mtanzi@compute asn4]$ exit
+exit
+
+Script done on 2019-11-13 01:44:58-05:00

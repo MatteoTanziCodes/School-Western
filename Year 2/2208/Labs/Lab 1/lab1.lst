@@ -1,0 +1,90 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             lab1, CODE, READWRITE
+    2 00000000                 ENTRY
+    3 00000000         
+    4 00000000 E59F1018        LDR              r1,A
+    5 00000004 E59F2018        LDR              r2,B
+    6 00000008 E59F3018        LDR              r3,C
+    7 0000000C E59F4018        LDR              r4,D
+    8 00000010 E59F0018        LDR              r0,Z
+    9 00000014         
+   10 00000014 E0040493        MUL              r4,r3,r4
+   11 00000018 E0811002        ADD              r1,r1,r2
+   12 0000001C E0410004        SUB              r0,r1,r4
+   13 00000020         
+   14 00000020 00000004 
+                       A       DCD              4
+   15 00000024 0000000C 
+                       B       DCD              12
+   16 00000028 FFFFFFFC 
+                       C       DCD              -4
+   17 0000002C FFFFFFFB 
+                       D       DCD              -5
+   18 00000030 00000000 
+                       Z       DCD              0
+   19 00000034         
+   20 00000034                 END
+Command Line: --debug --xref --bi --apcs=interwork --depend=.\lab1.d -o.\lab1.o
+ -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include --predefine="__EVAL SETA 1"
+ --list=.\lab1.lst lab1.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+A 00000020
+
+Symbol: A
+   Definitions
+      At line 14 in file lab1.s
+   Uses
+      At line 4 in file lab1.s
+Comment: A used once
+B 00000024
+
+Symbol: B
+   Definitions
+      At line 15 in file lab1.s
+   Uses
+      At line 5 in file lab1.s
+Comment: B used once
+C 00000028
+
+Symbol: C
+   Definitions
+      At line 16 in file lab1.s
+   Uses
+      At line 6 in file lab1.s
+Comment: C used once
+D 0000002C
+
+Symbol: D
+   Definitions
+      At line 17 in file lab1.s
+   Uses
+      At line 7 in file lab1.s
+Comment: D used once
+Z 00000030
+
+Symbol: Z
+   Definitions
+      At line 18 in file lab1.s
+   Uses
+      At line 8 in file lab1.s
+Comment: Z used once
+lab1 00000000
+
+Symbol: lab1
+   Definitions
+      At line 1 in file lab1.s
+   Uses
+      None
+Comment: lab1 unused
+6 symbols
+337 symbols in table

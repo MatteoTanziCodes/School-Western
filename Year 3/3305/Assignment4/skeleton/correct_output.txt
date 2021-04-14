@@ -1,0 +1,134 @@
+Ready Queue 1 Applying RR Scheduling:
+
+Order of selection by CPU: 
+p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p13 p14 p15 p16 p1 p3 p4 p7 p8 p9 p10 p13 p14 p15 p16 p1 p3 p10 p15 p16 p1 p3 p10 p16 p10 p16 
+
+Turnaround times for each process: 
+p11 = 5
+p12 = 2
+p17 = 3
+p18 = 6
+p2 = 115
+p5 = 110
+p6 = 110
+p4 = 198
+p7 = 184
+p8 = 181
+p9 = 181
+p13 = 172
+p14 = 166
+p15 = 201
+p1 = 306
+p3 = 297
+p10 = 265
+p16 = 235
+
+Ready Queue 2 Applying RR Scheduling:
+
+Order of selection by CPU: 
+p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p1 p2 p3 p4 p5 p6 p8 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p2 p3 p5 p6 p8 p11 p12 p16 p17 p20 p21 p17 
+
+Turnaround times for each process: 
+p7 = 1
+p9 = 13
+p10 = 9
+p22 = 3
+p1 = 267
+p4 = 262
+p13 = 234
+p14 = 231
+p15 = 222
+p18 = 212
+p19 = 210
+p2 = 447
+p3 = 440
+p5 = 417
+p6 = 407
+p8 = 394
+p11 = 370
+p12 = 368
+p16 = 329
+p20 = 296
+p21 = 295
+p17 = 348
+
+Ready Queue 3 Applying RR Scheduling:
+
+Order of selection by CPU: 
+p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p21 p22 p23 p3 p4 p5 p6 p7 p9 p10 p11 p12 p14 p15 p17 p18 p19 p21 p22 p23 p3 p4 p5 p6 p9 p10 p12 p14 p15 p17 p18 p21 p3 p4 p5 p6 p10 p12 p15 p17 p18 p21 p3 p4 p6 p10 p12 p15 p17 p18 p21 p3 p4 p6 p10 p12 p15 p18 p21 p3 p4 p6 p10 p12 p3 p6 p10 p12 p12 
+
+Turnaround times for each process: 
+p1 = 4
+p20 = 3
+p24 = 1
+p2 = 90
+p8 = 90
+p13 = 87
+p16 = 87
+p7 = 167
+p11 = 160
+p19 = 151
+p22 = 148
+p23 = 146
+p9 = 221
+p14 = 213
+p5 = 274
+p17 = 279
+p15 = 318
+p18 = 310
+p21 = 302
+p4 = 376
+p3 = 396
+p6 = 388
+p10 = 375
+p12 = 375
+
+Ready Queue 4 Applying RR Scheduling:
+
+Order of selection by CPU: 
+p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 
+
+Turnaround times for each process: 
+p1 = 39
+p2 = 17
+p3 = 22
+p4 = 32
+p5 = 3
+p6 = 27
+p7 = 2
+p8 = 2
+p9 = 26
+p10 = 5
+p11 = 8
+p12 = 18
+p13 = 27
+p14 = 38
+p15 = 6
+p16 = 27
+p17 = 4
+p18 = 19
+p19 = 11
+p20 = 13
+
+Ready Queue 5 Applying RR Scheduling:
+
+Order of selection by CPU: 
+p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p1 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p3 p4 p5 p6 p7 p10 p11 p12 p13 p14 p15 p3 p4 p5 p6 p7 p10 p11 p12 p13 p14 p15 p4 p5 p6 p7 p10 p11 p12 p13 p14 p15 p4 p5 p6 p7 p10 p11 p12 p13 p14 p15 p4 p5 p6 p7 p10 p11 p12 p13 p14 p15 p4 p5 p6 p7 p10 p11 p12 p13 p14 p15 p4 p5 p6 p7 p12 p13 p14 p4 p5 p6 p7 p12 p13 p14 p4 p5 p7 p12 p14 p4 p5 p7 p12 p14 p4 p5 p7 p12 p14 p4 p5 p7 p12 p14 p4 p7 p12 p14 p4 p7 p12 p4 p12 p4 p12 
+
+Turnaround times for each process: 
+p2 = 34
+p1 = 66
+p8 = 92
+p9 = 91
+p16 = 90
+p3 = 140
+p10 = 215
+p11 = 215
+p15 = 215
+p6 = 252
+p13 = 243
+p5 = 295
+p14 = 290
+p7 = 307
+p4 = 321
+p12 = 306

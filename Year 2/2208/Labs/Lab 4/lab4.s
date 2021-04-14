@@ -1,0 +1,6 @@
+	AREA lab4, CODE, READWRITE
+	ENTRY
+
+    SBCS r2,r10,#8
+
+	END

@@ -1,0 +1,12 @@
+Script started on 2019-10-08 14:41:50-04:00
+]0;mtanzi@compute:~/cs2211/asn2[mtanzi@compute asn2]$ gcc- [K[K[K [Kc -o exop[K[Kp_calculator exp_calculator.c
+]0;mtanzi@compute:~/cs2211/asn2[mtanzi@compute asn2]$ ./exp_calculator
+Please provide the base: 2
+Please provide the exponent: 3
+8.000000]0;mtanzi@compute:~/cs2211/asn2[mtanzi@compute asn2]$ /.[K[K/[K./exp_calculator
+Please provide the base: 3
+Please provide the exponent: 2
+9.000000]0;mtanzi@compute:~/cs2211/asn2[mtanzi@compute asn2]$ exit
+exit
+
+Script done on 2019-10-08 14:42:57-04:00

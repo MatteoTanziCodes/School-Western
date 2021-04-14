@@ -1,0 +1,2 @@
+Dependencies for Project 'assign5', Target 'Target 1': (DO NOT MODIFY !)
+F (.\asn5.s)(0x5DEA1FAD)(--cpu ARM7TDMI --bi --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include--list .\asn5.lst --xref -o .\asn5.o --depend .\asn5.d)

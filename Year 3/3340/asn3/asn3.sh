@@ -1,0 +1,2 @@
+javac heapADT.java heap.java shortestPathTreeProcessor.java
+java shortestPathTreeProcessor
