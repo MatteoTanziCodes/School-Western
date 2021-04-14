@@ -1,2 +1,2 @@
-# School-Western
- Projects from School
+# Western University Projects
+
