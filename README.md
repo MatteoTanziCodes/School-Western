@@ -16,5 +16,6 @@
 - Computer Science 3340: Analysis of Algorithms 1
 - Computer Science 3357: Computer Networks 1
 - Computer Science 3388: Computer Graphics 1
+- Computer Science 3377: Group Project
 
 # Year 4:
